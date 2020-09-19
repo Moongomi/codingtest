@@ -2,7 +2,7 @@ import sys
 input = sys.stdin.readline
 s = input()
 dict={}
-for i in range(0,52):
+for i in range(52):
     n = ord(s[i])-65
     if s[i] in dict:
         dict[s[i]].append(i)

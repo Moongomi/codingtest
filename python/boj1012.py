@@ -14,12 +14,12 @@ def dfs(x,y):
                 dfs(nx,ny)
 
 T = int(input())
-for q in range(T):
+for _ in range(T):
     cnt = 0
     m,n,k = map(int,input().split())
     A = [[0]*m for j in range(n)]
     visit = [[0]*m for j in range(n)]
-    for z in range(k):
+    for _ in range(k):
         i,j = map(int,input().split())
         A[j][i] = 1
     for i in range(n):

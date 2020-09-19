@@ -20,7 +20,7 @@ com = int(input())
 edge = int(input())
 start = 1
 
-for i in range(edge):
+for _ in range(edge):
     n1,n2 = map(int,input().split())
     if n1 not in graph:
         graph[n1] = [n2]
